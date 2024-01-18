@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(174, 237, 216);
+}
+
+#pannel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(219, 222, 138);
+    border-radius: 10px;
+}
+
+
+.tpannel {
+    justify-content: space-between;
+    padding: 0px 35%;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    color: black;
+    background-color: rgb(205, 50, 50);
+}
+
+.box {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.elem {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+
+
+.bpannel {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 15%);
+    background-color: rgb(255, 255, 255);
+}
+
+.bubble {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.bubble:hover {
+    background-color: red;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #main {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(174, 237, 216);
+    }
+
+    #pannel {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(219, 222, 138);
+        
+    }
+
+
+
+
+    .tpannel {
+        justify-content:flex-start;
+        padding: 0px 0px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 100%;
+        height: 15%;
+        color: black;
+        background-color: rgb(205, 50, 50);
+
+    }
+
+    .box {
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+
+    .elem {
+        margin-left: 63px;
+       display: grid;
+        width: 10%;
+        align-items: center;
+        gap: 5px;
+        /* background-color: blue; */
+    }
+    
+    .bpannel {
+        font-size: 50px;
+        gap: 15px;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 10px;
+        width: 100%;
+        height: calc(100% - 15%);
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bubble {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background-color: teal;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        color: white;
+        border-radius: 50px;
+        transition: all 1s;
+    }
+
+    .bubble:hover {
+        background-color: red;
+        color: black;
+    }
+
+    .ffnd{
+        font-size: 20px;
+    }
+
+}
